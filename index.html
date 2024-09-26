@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cellophane Pastelería</title>
+  <style>
+    *{
+      box-sizing: border-box;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    body{
+      background-color: white;
+      height: 100vh;
+
+    }
+    header{
+      background-color: white;
+      text-align: center;
+    }
+    nav{
+      background-color: black;
+      
+    }
+    #navigation{
+      text-align: center;
+      padding: 15px;
+      text-align: center;
+      display: flex;
+      justify-content: space-evenly;
+    }
+    #navigation li{
+      display: inline;
+      font-weight: bold;
+    }
+    a:link, a:visited, a:active{
+      color: antiquewhite;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 18px;
+
+    }
+    section{
+      background-color: white;
+      height: 400px;
+      margin-bottom: 30px;
+      margin-top: 30px;
+    }
+    .container{
+      display: flex;
+      justify-content: space-between;
+    }
+    #pasteles{
+      /*background-color: goldenrod;*/
+      float: left;
+      padding: 20px;
+      width: 50%;
+      height: 200px;
+    }
+    #decorados{
+      float: left;
+      padding: 20px;
+      width: 50%;
+      height: 400px;
+    }
+    .menu li{
+      font-size: 20px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+    .imgPasteles{
+      border-radius: 15px;
+      box-shadow: 3px 3px 5px;
+    }
+    footer{
+      background-color: black;
+      color: aliceblue;
+      padding-top: 30px;
+      padding-bottom: 30px;
+
+    }
+    table{
+      /*background-color: brown;*/
+      width: 100%;
+      text-align: center;
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <header>
+    <img id="logo"
+    src="./images/logo.png"
+    alt="logo"
+    width="350px"
+    height="350px"/>
+    <nav>
+      <ul id="navigation">
+        <li><a href="#">Home - Menú</a></li>
+        <li><a href="./pages/pedido.html">Haz tu pedido</a></li>
+        <li><a href="#">Galería</a></li>
+        <li><a href="#">Quiénes somos</a></li>
+        
+      </ul>
+    </nav>
+
+  </header>
+
+  <section>
+    <article id="pasteles">
+      <h2>Sabores de pastel</h2>
+      <div class="container">
+        <ul class="menu">
+          <li>Pastel de vainilla ............ $20</li>
+          <li>Pastel de chocolate ......... $20</li>
+          <li>Pastel de fresa ............... $20</li>
+          <li>Pastel de naranja ............ $20</li>
+          <li>Pastel Red Velvet ............ $20</li>
+          <li>Pastel de manzana .......... $20</li>
+          <li>Pastel tres leches ............ $20</li>
+        </ul>
+        <img class="imgPasteles"
+        src="./images/pastel.jpg"
+        alt="pasteles"
+        width="250px"
+        height="250px"/>
+      </div>
+
+    </article>
+
+    <article id="decorados">
+      <h2>Decoraciones deliciosas</h2>
+      <div class="container">
+      <ul class="menu">
+        <li>Frambuesas .................... $5</li>
+        <li>Galletas Oreo .................. $5</li>
+        <li>Crema pastelera .............. $5</li>
+        <li>Fudge de chocolate .......... $5</li>
+        <li>Arándanos frescos ............ $5</li>
+        <li>Cerezas en almíbar ........... $5</li>
+        <li>Mousse de Nutella ............ $5</li>
+      </ul>
+      <img class="imgPasteles"
+      src="./images/decoracion.jpg"
+      alt="decoraciones"
+      width="250px"
+      height="250px"/>
+    </div>
+
+    </article>
+
+  </section>
+  <footer>
+    <table>
+      <tr>
+        <td><h4>D I R E C C I Ó N </h4></td>
+        <td><h4>T E L É F O N O </h4></td>
+        <td><h4>H O R A R I O S </h4></td>
+      </tr>
+      <tr>
+        <td><p>Av. 9 de Diciembre N° 206</p></td>
+        <td><p>Para reservas y pedidos: 989 021 980</p></td>
+        <td><p>Lunes a viernes: 9:00 - 22:30. Sábados: 12:00 - 23:00</p></td>
+      </tr>
+    </table>
+
+  </footer>
+</body>
+
+</html>
